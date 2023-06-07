@@ -218,10 +218,10 @@ bar {
        status_command py3status --config ~/.config/i3status/i3status.conf 
 
        position top
-       font pango:GohuFont Nerd Font 15 
+       font pango:GohuFont Nerd Font Bold 15 
     colors {
         background #282A3633
-        statusline #F8F8F2
+        statusline #a1aab8  #old color #F8F8F2
         separator  #44475A
 
         focused_workspace  #61668140 #61668140 #E1F8F4

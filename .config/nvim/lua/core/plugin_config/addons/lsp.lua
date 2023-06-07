@@ -18,19 +18,19 @@ require('lspconfig').pyright.setup{
 
   end,
 }
-require('lspconfig').html.setup{
-capabilities = capabilities,
+--require('lspconfig').html.setup{
+--capabilities = capabilities,
 --root_dir = require("lspconfig").util.root_pattern("html.config.js", ".git"),
-cmd = { 'vscode-html-language-server', '--stdio' },
-filetypes = { 'html' },
-single_file_support = true,
-settings = {},
-init_options = {
-      provideFormatter = true,
-      embeddedLanguages = { css = true, javascript = true },
-      configurationSection = { 'html', 'css', 'javascript' }
-    }
-}
+--cmd = { 'vscode-html-language-server', '--stdio' },
+--filetypes = { 'html' },
+--single_file_support = true,
+--settings = {},
+--init_options = {
+--      provideFormatter = true,
+--      embeddedLanguages = { css = true, javascript = true },
+--      configurationSection = { 'html', 'css', 'javascript' }
+--    }
+--}
 
 require('lspconfig').cssls.setup{
 capabilities = capabilities,
